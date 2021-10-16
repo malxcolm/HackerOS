@@ -7,6 +7,6 @@ print("Loading sOS.py")
 for i in tqdm (range (101),
 			desc="Loading bOS.py",
 			ascii=False, ncols=75):
-	time.sleep(24)
+	time.sleep(0.1)
 	
 print("Complete.")
